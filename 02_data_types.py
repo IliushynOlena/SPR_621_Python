@@ -18,12 +18,13 @@ print("int",type(-5))
 print("float",type(3.14))
 print("float",type(2.55))
 print("str",type("100"))
+print("str",type('100'))
 print("str",type("Hello"))
 print("bool",type(True))
 print("bool",type(False))
 
 #Python як калькулятор
-#Основні оператори   + -  / *  //  %  **
+#Основні оператори   + -  / *  //  %  2**3
 print(5 + 7)
 print(5 + 7.0)
 print(5.0 + 7)
@@ -57,7 +58,7 @@ print(2**3.) #2*2*2 = 8
 print(2.**3) #2*2*2 = 8
 print(2.**3.) #2*2*2 = 8
 
-# % - Оператори: остача (ділення за модулем, з остачею)
+# %7==0 - Оператори: остача (ділення за модулем, з остачею)
 #15/3 = 5.0
 print(15/3)
 
@@ -91,6 +92,7 @@ print(5 + False)   #5  --> False = 0
 print(1_000_000)
 
 #Змінна - іменована ділянка пам*яті, яка має певну назву та зберігає певне значення
+a = 1
 age = 15
 print(age)
 print("Age = ",age)
@@ -100,6 +102,7 @@ print("Age of man : ", ageofman)
 ageOfMan = 47
 age_of_man = 68
 
+print(100)
 a1 = 5
 a2 = 10
 #3a = 7 error
@@ -112,8 +115,10 @@ pasword = "qwerty123"
 #second_number = 22
 
 first_number = int(input("Enter first number : "))
-second_number = int( input("Enter second number : "))
+second_number = float( input("Enter second number : "))
+
 summa = first_number + second_number
+
 print("Summa = ", summa)
 print(first_number, " + ",second_number, " = ", summa)
 
