@@ -126,7 +126,7 @@ a%2 != 0
 a%2 == 1
 print("Menu . 1 - add number . 2 - minus. 3 - multy. 4 - divide")
 num = 1
-
+'''
 login = input("Enter login : ")
 if login == 'admin':
     password = input("Enter password : ")
@@ -139,4 +139,4 @@ elif login == 'exit':
     print("Have a nice day!!!")
 else:
     print("Error input")
-
+'''
